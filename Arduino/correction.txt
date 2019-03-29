@@ -1,0 +1,86 @@
+ /*while (Serial.available()) {
+    if (Serial.read() == 'W') {
+      forward(1);
+    }
+    }
+    while(1) {
+    forward(1);
+    delay(3000);
+    }*/
+   /*int disFM = sensorFrontMiddle.getDistance();
+   Serial.println(disFM);
+    if (disFM >= 20 && disFM <= 25) {
+      delay(5000);
+      avoidobstacle();
+    }*/
+/*void avoidobstacle() {
+    left(45);
+      delay(500);
+      forward(1);
+      delay(500);
+      forward(1);
+      delay(500);
+      right(45);
+      delay(500);
+      forward(1);
+      delay(500);
+      forward(1);
+      delay(500);
+      forward(1);
+      delay(500);
+      right(45);
+      delay(500);
+      forward(1);
+      delay(500);
+      forward(1);
+      delay(500);
+      left(45);
+      delay(500);
+      forward(1);
+      delay(500);
+      forward(1);
+      delay(500);
+}*/
+
+/*void ticksE1Corrector(int correctionticks) {
+  int temp = E1ticks;
+  E1ticks = 0;
+  md.setM1Speed(100);
+  while (correctionticks > E1ticks) {
+    Serial.print("M1 Moved for Correction: ");
+    Serial.println(E1ticks);
+  }
+  md.setM1Brake(100);
+  E1ticks = temp;
+  }
+
+  void ticksE2Corrector(int correctionticks) {
+  int temp = E2ticks;
+  E2ticks = 0;
+  md.setM2Speed(100);
+  while (correctionticks > E2ticks) {
+    Serial.print("M2 Moved for Correction: ");
+    Serial.println(E2ticks);
+  }
+  md.setM2Brake(100);
+  E2ticks = temp;
+  }*/
+
+/*int disFR = sensorFrontRight.getDistance();
+  Serial.print("Distance Front Right ");
+  Serial.println(disFR);
+  int disFL = sensorFrontLeft.getDistance();
+  Serial.print("Distance Front Left ");
+  Serial.println(disFL);
+  int disLR = sensorLongRight.getDistance();
+  Serial.print("Distance Long Right ");
+  Serial.println(disLR);
+  int disFM = sensorFrontMiddle.getDistance();
+  Serial.print("Distance Front Middle ");
+  Serial.println(disFM);
+  int disLB = sensorLeftBack.getDistance();
+  Serial.print("Distance Left Back ");
+  Serial.println(disLB);
+  int disLF = sensorLeftFront.getDistance();
+  Serial.print("Distance Left Front ");
+  Serial.println(disLF);*/

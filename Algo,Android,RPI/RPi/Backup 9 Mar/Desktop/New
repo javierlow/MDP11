@@ -1,0 +1,11 @@
+                        while True:
+                        # receive data stream. it won't accept data packet greater than 1024 bytes
+                                data = self.client.recv(1024).decode()
+                                if not data:
+                        # if data is not received break
+                                        break
+                                print("from connected user: " + str(data))
+                                data = raw_input()
+                                self.client.send(data.encode())  # send data to the client
+                        
+                        conn.close()  # close the connection 

@@ -1,0 +1,22 @@
+NORTH = 0
+EAST = 1
+SOUTH = 2
+WEST = 3
+
+FORWARD = 0
+LEFT = -1
+RIGHT = 1
+BACKWARD = 2
+
+NWS = 1
+NES = 3
+SES = 5
+SWS = 7
+NS = 0
+ES = 2
+SS = 4
+WS = 6
+CS = -1
+
+DEBUG_MODE = False
+ARROW_SCAN = False

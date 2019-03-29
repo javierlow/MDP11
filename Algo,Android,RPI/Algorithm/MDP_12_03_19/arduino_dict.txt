@@ -1,0 +1,15 @@
+send to Arduino:
+    w: forward
+    a: turn left
+    d: turn right
+    s: backward
+    g: get sensor reading
+    z: left sensor (for calibration)
+    j: front sensor (for calibration)
+
+receive from Arduino:
+    U: front sensor msg (for calibration)
+    D: left sensor msg (for calibration)
+    M: move msg (after move)
+
+
